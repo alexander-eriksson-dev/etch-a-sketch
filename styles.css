@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=PT+Sans+Caption&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #e3f6f5;
+    color: #272643;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #272643;
+}
+
+h1 {
+    font-family: 'Londrina Sketch', cursive;
+    font-size: 78px;
+    margin: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliderContainer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#gridSizeSlider {
+    width: 300px; 
+    height: 15px;
+    margin: 0 0 20px 0;
+    -webkit-appearance: none;
+    border-radius: 5px;  
+    background: #bae8e8;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#gridSizeSlider:hover {
+    opacity: 1; 
+}
+
+#gridSizeSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    background: #272643;
+    cursor: pointer;
+}
+  
+#gridSizeSlider::-moz-range-thumb {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #272643;
+    cursor: pointer;
+}
+
+#currentGridSize {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 37px;
+    margin-top: 15px;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    background: #272643;
+}
+
+.footer {
+    padding: 1em;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
