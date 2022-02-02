@@ -1,6 +1,6 @@
 # etch-a-sketch
 
-Made for the project "Etch-a-Sketch" in the foundations of [The Odin Project](https//www.theodinproject.com/)
+Made for the project "Etch-a-Sketch" in the foundations of [The Odin Project](https://www.theodinproject.com/)
 
 ![Screenshot of etch-a-sketch](https://i.imgur.com/lvshR6U.png)
 
